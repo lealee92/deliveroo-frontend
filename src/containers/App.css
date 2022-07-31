@@ -1,0 +1,91 @@
+body {
+  color: #2e3333;
+}
+.header {
+  border-bottom: solid 1px lightgray;
+  height: 60px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 60px;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant-info > img {
+  width: 350px;
+}
+
+.title-header {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.text-header {
+  font-size: 19px;
+  color: gray;
+  padding: 20px;
+}
+.gray-back {
+  background-color: #f3f5f5;
+}
+
+.cat-name {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.restaurant-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart {
+  width: 350px;
+}
+
+.meals {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.meals-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.meal-container {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  margin-bottom: 20px;
+  width: 400px;
+  background-color: white;
+}
+
+.meal-container > div {
+  display: flex;
+
+  flex: 1;
+}
+
+.meal-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.meal-container > img {
+  width: 130px;
+  height: 130px;
+}
